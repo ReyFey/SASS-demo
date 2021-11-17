@@ -6,13 +6,13 @@ npm install
 
 Install the necessary package with this command.
 ```sh
-npm install -g sass
+npm install -g less
 ```
 
 ## Compiler
 After each modification of the sass file, it is necessary to input this line.
 ```sh
-sass sass/style.sass:css/style.css
+lessc less/style.less css/style.css
 ```
 
 ## File Watcher
@@ -32,7 +32,7 @@ $ProjectFileDir$/css/$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.c
 ### All that remains is to discover the language and train yourself on your own projects. 
 
 ## Documentation
-> [Read more](https://sass-lang.com/documentation) about Sass language
+> [Read more](https://lesscss.org/) about Less language
 
 ## Licence
 MIT
